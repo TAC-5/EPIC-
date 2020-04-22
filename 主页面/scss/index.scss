@@ -1,0 +1,30 @@
+.ah-tab {
+    display: inline-block;
+}
+
+.top {
+    position: absolute;
+    display: inline-block;
+    line-height: 51.8px;
+    right: 20px;
+
+    a {
+        color: #e7e7e7;
+    }
+}
+
+.bottom {
+
+    padding: 1em 21.56em 2em;
+    // text-align: center;
+
+    .three {
+        text-align: center;
+    }
+}
+
+.three-bottom {
+    .lin {
+        margin: 1px 0;
+    }
+}
