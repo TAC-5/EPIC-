@@ -1,3 +1,16 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .ah-tab {
   display: inline-block;
 }
@@ -6,7 +19,17 @@
   position: absolute;
   display: inline-block;
   line-height: 51.8px;
-  right: 20px;
+}
+
+.top .GAMES {
+  position: absolute;
+  width: 180px;
+  height: 100%;
+  background-color: #0078f2;
+}
+
+.top .GAMES span {
+  margin: 0 9px;
 }
 
 .top a {
@@ -21,7 +44,101 @@
   text-align: center;
 }
 
+.bottom h1 {
+  font-family: Brutal, Brutal_Medium, Arial, sans-serif;
+}
+
+.three-bottom {
+  background-color: #333333;
+}
+
+.three-bottom footer {
+  font-size: 16px;
+  font-family: OpenSans, sans-serif;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  position: relative;
+  padding: 1.25em 4.5em 2.5em;
+  z-index: 10;
+}
+
+.three-bottom footer .right-goTop {
+  cursor: pointer;
+  float: right;
+  width: 2.1em;
+  height: 2.1em;
+  border: 2px solid #fff;
+  padding: .25em;
+  border-radius: 2px;
+  margin: 1.25em 1em 0 0;
+}
+
+.three-bottom footer .top-1 {
+  width: 50%;
+}
+
+.three-bottom footer .top-1 .on {
+  display: inline-block;
+}
+
+.three-bottom footer .top-1 span {
+  color: #cccccc;
+  opacity: .4;
+  display: block;
+}
+
+.three-bottom footer .top-1 .left ul,
+.three-bottom footer .top-1 .right ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0 2.6em .5em 0;
+}
+
+.three-bottom footer .top-1 .left ul li,
+.three-bottom footer .top-1 .right ul li {
+  line-height: 1.5em;
+  list-style: none;
+}
+
+.three-bottom footer .top-1 .left ul li a,
+.three-bottom footer .top-1 .right ul li a {
+  text-decoration: none;
+  color: #e7e7e7;
+}
+
+.three-bottom footer .top-1 .left ul li a:hover,
+.three-bottom footer .top-1 .right ul li a:hover {
+  color: blue;
+}
+
 .three-bottom .lin {
-  margin: 1px 0;
+  margin: 30px 0;
+  color: #333333;
+}
+
+.three-bottom .bottom-one {
+  float: none;
+  width: auto;
+  padding: 0;
+  font-family: OpenSans, sans-serif;
+}
+
+.three-bottom .bottom-one li {
+  padding: 0 1em 0 0;
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+}
+
+.three-bottom .bottom-one li a {
+  font-size: 0.75em;
+  text-decoration: none;
+  color: #e7e7e7;
+}
+
+.three-bottom .bottom-one li a:hover {
+  color: blue;
 }
 /*# sourceMappingURL=index.css.map */
