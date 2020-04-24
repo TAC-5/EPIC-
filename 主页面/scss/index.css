@@ -19,6 +19,7 @@ html {
   position: absolute;
   display: inline-block;
   line-height: 51.8px;
+  right: 180px;
 }
 
 .top .GAMES {
@@ -140,5 +141,50 @@ html {
 
 .three-bottom .bottom-one li a:hover {
   color: blue;
+}
+
+.issue {
+  background-color: #eff4f6;
+  color: #000;
+}
+
+.issue .serve {
+  position: relative;
+  background-color: #2fcc66;
+  width: 100%;
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.issue .serve div {
+  padding: 10px 0;
+}
+
+.issue .out {
+  display: block;
+  background-color: #2a2a2a;
+  color: #eff4f6;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+
+.issue .out div {
+  display: inline-block;
+  padding: 10px;
+}
+
+.issue .out .clear {
+  float: right;
+  margin-right: 2%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 40px;
 }
 /*# sourceMappingURL=index.css.map */
