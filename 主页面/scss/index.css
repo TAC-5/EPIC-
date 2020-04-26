@@ -187,4 +187,62 @@ html {
   font-weight: 700;
   line-height: 40px;
 }
+
+.issue .container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 90px;
+}
+
+.issue .container .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.issue .container .row h1 {
+  text-align: center;
+}
+
+.issue .container .row .text {
+  font-size: 16px;
+  font-family: OpenSans, sans-serif;
+  color: #4d4d4d;
+  padding: 2em 0;
+  text-align: center;
+}
+
+.issue .container .row .block {
+  text-align: center;
+}
+
+.issue .container .row .block .iamg {
+  display: inline-block;
+}
+
+.issue .container .row .h1 {
+  padding: 20px 40px;
+  font-weight: 700;
+  font-family: Brutal_Bold, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+}
+
+.issue .container .row .grid {
+  text-align: center;
+}
+
+.issue .container .row .grid div {
+  max-width: 200px;
+  min-width: 200px;
+  margin: 8px;
+  display: inline-block;
+}
+
+.issue .container .row .grid div a img {
+  width: 100%;
+}
 /*# sourceMappingURL=index.css.map */
