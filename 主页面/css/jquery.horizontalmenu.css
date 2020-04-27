@@ -152,11 +152,11 @@
     padding: 15px 0;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .ah-tab>.ah-tab-item {
         margin-right: 50px;
     }
-}
+} */
 
 .ah-tab-item[data-ah-tab-active="true"] {
     color: #215393;

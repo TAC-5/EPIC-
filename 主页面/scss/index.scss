@@ -20,22 +20,22 @@ html {
     display: inline-block;
     line-height: 51.8px;
     right: 180px;
+    font-size: 14px;
 
     .GAMES {
         position: absolute;
         width: 180px;
         height: 100%;
         background-color: #0078f2;
-
-        span {
-            margin: 0 9px;
-        }
+        text-align: center;
     }
 
     a {
         color: #e7e7e7;
+        margin-right: 30px;
     }
 }
+
 
 .bottom {
 
@@ -141,6 +141,14 @@ html {
                 color: blue;
             }
         }
+    }
+}
+// 商城的css
+.pme {
+    width: 100%;
+    position: relative;
+    .Home {
+        margin: 0 auto;
     }
 }
 
@@ -251,4 +259,14 @@ html {
             }
         }
     }
+}
+
+.op {
+    opacity: 0;
+}
+
+.in {
+    transition: all 0.4s;
+    transform: scale(1.05);
+    opacity: 1;
 }

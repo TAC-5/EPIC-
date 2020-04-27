@@ -20,6 +20,7 @@ html {
   display: inline-block;
   line-height: 51.8px;
   right: 180px;
+  font-size: 14px;
 }
 
 .top .GAMES {
@@ -27,14 +28,12 @@ html {
   width: 180px;
   height: 100%;
   background-color: #0078f2;
-}
-
-.top .GAMES span {
-  margin: 0 9px;
+  text-align: center;
 }
 
 .top a {
   color: #e7e7e7;
+  margin-right: 30px;
 }
 
 .bottom {
@@ -143,6 +142,15 @@ html {
   color: blue;
 }
 
+.pme {
+  width: 100%;
+  position: relative;
+}
+
+.pme .Home {
+  margin: 0 auto;
+}
+
 .issue {
   background-color: #eff4f6;
   color: #000;
@@ -244,5 +252,17 @@ html {
 
 .issue .container .row .grid div a img {
   width: 100%;
+}
+
+.op {
+  opacity: 0;
+}
+
+.in {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  opacity: 1;
 }
 /*# sourceMappingURL=index.css.map */
