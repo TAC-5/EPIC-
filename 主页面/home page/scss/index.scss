@@ -143,12 +143,84 @@ html {
         }
     }
 }
+
 // 商城的css
 .pme {
     width: 100%;
     position: relative;
+    padding-top: 51px;
+    background-color: #121212;
+    ;
+
     .Home {
+        flex-direction: row;
         margin: 0 auto;
+        max-width: calc(1600px + (100vw / 72 * 9) + (100vw / 72 * 9));
+        padding-left: calc(100vw / 72 * 9);
+        padding-right: calc(100vw / 72 * 9);
+
+        .Feed {
+            padding: 0;
+
+            &::before,&::after {
+                content: "";
+                display: table;
+            }
+
+            &::after {
+                clear: both;
+            }
+
+            h1 {
+                margin-left: .63rem;
+                margin-right: .63rem;
+
+                span {
+                    font-size: .88rem;
+                    letter-spacing: .01rem;
+                    line-height: 1.4;
+                    color: #fff;
+                }
+            }
+
+            .NewsItem {
+                margin-bottom: 1.25rem;
+                margin-left: .63rem;
+                margin-right: .63rem;
+                display: inline-flex;
+                max-width: 685px;
+                height: 567.22px;
+
+                a {
+                    text-decoration: none;
+                }
+
+                .News-box {
+                    padding: 2.19rem 2.5rem;
+
+                    h2 {
+                        padding-bottom: .5rem;
+                        font-size: 1.25rem;
+                        letter-spacing: -.01rem;
+                        line-height: 1.25;
+                        color: #f4f4f4;
+                        font-weight: 400;
+                    }
+
+                    .News-box-witdh {
+                        color: #f4f4f4;
+                        flex-direction: column;
+                        width: 100%;
+                        z-index: 2;
+                    }
+                }
+
+                .News-img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
     }
 }
 

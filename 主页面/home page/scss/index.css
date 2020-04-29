@@ -145,10 +145,87 @@ html {
 .pme {
   width: 100%;
   position: relative;
+  padding-top: 51px;
+  background-color: #121212;
 }
 
 .pme .Home {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin: 0 auto;
+  max-width: calc(1600px + (100vw / 72 * 9) + (100vw / 72 * 9));
+  padding-left: calc(100vw / 72 * 9);
+  padding-right: calc(100vw / 72 * 9);
+}
+
+.pme .Home .Feed {
+  padding: 0;
+}
+
+.pme .Home .Feed::before, .pme .Home .Feed::after {
+  content: "";
+  display: table;
+}
+
+.pme .Home .Feed::after {
+  clear: both;
+}
+
+.pme .Home .Feed h1 {
+  margin-left: .63rem;
+  margin-right: .63rem;
+}
+
+.pme .Home .Feed h1 span {
+  font-size: .88rem;
+  letter-spacing: .01rem;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.pme .Home .Feed .NewsItem {
+  margin-bottom: 1.25rem;
+  margin-left: .63rem;
+  margin-right: .63rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  max-width: 685px;
+  height: 567.22px;
+}
+
+.pme .Home .Feed .NewsItem a {
+  text-decoration: none;
+}
+
+.pme .Home .Feed .NewsItem .News-box {
+  padding: 2.19rem 2.5rem;
+}
+
+.pme .Home .Feed .NewsItem .News-box h2 {
+  padding-bottom: .5rem;
+  font-size: 1.25rem;
+  letter-spacing: -.01rem;
+  line-height: 1.25;
+  color: #f4f4f4;
+  font-weight: 400;
+}
+
+.pme .Home .Feed .NewsItem .News-box .News-box-witdh {
+  color: #f4f4f4;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  z-index: 2;
+}
+
+.pme .Home .Feed .NewsItem .News-img {
+  width: 100%;
+  height: 100%;
 }
 
 .issue {

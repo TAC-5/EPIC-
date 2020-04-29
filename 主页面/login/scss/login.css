@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.login {
+  background-color: #121212;
+  height: 100%;
+  width: 100%;
+  font-size: 12px;
+}
+
+.login .login-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.login .login-box .login-box-indoor {
+  background-color: #202020;
+  position: relative;
+  border: none;
+  text-align: left;
+  text-align: initial;
+  white-space: normal;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 470px;
+  min-width: 320px;
+  width: 100%;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical {
+  padding: 2.5em 60px 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  min-width: 300px;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .logo .logo-img {
+  width: 50px;
+  height: 50px;
+  background-image: url(../img/logo.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .SocialBar {
+  margin-top: 30px;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .SocialBar .SocialButton {
+  padding: 0 !important;
+  height: 50px;
+  min-width: 50px;
+  max-width: 100%;
+  width: 18%;
+  color: #fff;
+  font-weight: 700;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .SocialBar .SocialButton span {
+  border: none;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .SocialBar .Button {
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  outline: 0;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  -webkit-appearance: none;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .SocialBar .Bar-1 {
+  background-color: #4267b2;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .SocialBar .Bar-1 div {
+  width: 18px;
+  height: 18px;
+  background-image: url(../img/logo-01.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .SocialBar .Bar-2 {
+  background-color: #02b3e8;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .SocialBar .Bar-2 div {
+  width: 18px;
+  height: 18px;
+  background-image: url(../img/logo-02.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .SocialBar .Bar-3 {
+  background-color: #107c10;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .SocialBar .Bar-3 div {
+  width: 18px;
+  height: 18px;
+  background-image: url(../img/logo-03.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .SocialBar .Bar-4 {
+  background-color: #e60012;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .SocialBar .Bar-4 div {
+  width: 18px;
+  height: 18px;
+  background-image: url(../img/logo-04.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .SocialBar .blank {
+  width: 100%;
+  height: 0px;
+  max-width: 10px;
+  max-height: 0px;
+  display: none;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .root {
+  margin-top: 30px;
+  color: #F4F4F4;
+  font-size: 12px;
+  font-family: Brutal, sans-serif;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .vertical {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .vertical .fullwidth {
+  margin-top: 15px;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0;
+  position: relative;
+  min-width: 0;
+  border-radius: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  vertical-align: top;
+  background-color: #2B2B2B;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .alternative {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .alternative .alternative-root {
+  padding: 0 5px;
+  color: rgba(244, 244, 244, 0.5);
+  font-size: 1.1428571428571428rem;
+  font-family: Brutal, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .alternative a {
+  padding: 0 5px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.login .login-box .login-box-indoor .login-box-indoor-vertical .alternative a p {
+  color: #f4f4f4;
+  font-size: 1.1428571428571428rem;
+  font-family: Brutal, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+/*# sourceMappingURL=login.css.map */
